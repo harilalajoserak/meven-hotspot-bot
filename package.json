@@ -1,12 +1,8 @@
 {
-  "name": "meven-hotspot-bot",
+  "name": "meven-hotspot-api",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "node-telegram-bot-api": "^0.66.0"
-  }
+  "scripts": { "start": "node index.js" },
+  "dependencies": { "express": "^4.19.2" }
 }
